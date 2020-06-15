@@ -5,18 +5,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    default_labels:
-      - "dependency-update"
   - package-ecosystem: npm
     directory: "/"
     schedule:
       interval: daily
-    ignored_updates:
-      - match:
-          dependency_name: "jest"
-          version_requirement: "^25.5.4"
-    default_labels:
-      - "dependency-update"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
