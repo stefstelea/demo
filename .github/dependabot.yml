@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: live
+      interval: daily
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
