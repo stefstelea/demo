@@ -9,6 +9,9 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+    ignore: 
+      - dependency-name: "jest"
+        versions: "^25.5.4"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
