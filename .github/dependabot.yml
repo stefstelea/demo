@@ -12,6 +12,8 @@ updates:
     ignore: 
       - dependency-name: "jest"
         versions: "^25.5.4"
+    pull-request-branch-name:
+      separator: "_"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
