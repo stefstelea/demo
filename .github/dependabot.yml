@@ -9,9 +9,8 @@ updates:
     directory: "/"
     schedule:
       interval: daily
-    ignore:
-      - dependency-name: "*"
-        versions: "semver:major"
+    allow:
+      - dependency-type: "semver:minor"
     pull-request-branch-name:
       separator: "_"
     open-pull-requests-limit: 1
